@@ -1,0 +1,938 @@
+C:\Users\Projects\differentiation_p0_training_v3\differentiation_p0_training\analysis\core.py:159: RuntimeWarning: invalid value encountered in scalar divide
+  D[s, i, j] = D[s, j, i] = np.linalg.norm(Hf[s, i][m] - Hf[s, j][m], axis=1).mean() / spread
+epoch    0: train 0.031 test 0.031 circulant 0.020 (null95 0.054)
+epoch   10: train 0.142 test 0.041 circulant 0.020 (null95 0.053)
+epoch   20: train 0.649 test 0.096 circulant 0.020 (null95 0.054)
+epoch   30: train 0.963 test 0.139 circulant 0.020 (null95 0.054)
+epoch   40: train 0.982 test 0.152 circulant 0.020 (null95 0.054)
+epoch   50: train 0.981 test 0.173 circulant 0.020 (null95 0.053)
+epoch   60: train 0.989 test 0.177 circulant 0.018 (null95 0.054)
+epoch   70: train 0.984 test 0.186 circulant 0.017 (null95 0.053)
+epoch   80: train 0.987 test 0.191 circulant 0.017 (null95 0.053)
+epoch   90: train 0.983 test 0.195 circulant 0.017 (null95 0.053)
+epoch  100: train 0.988 test 0.206 circulant 0.017 (null95 0.053)
+epoch  110: train 0.987 test 0.209 circulant 0.016 (null95 0.054)
+epoch  120: train 0.984 test 0.223 circulant 0.017 (null95 0.055)
+epoch  130: train 0.990 test 0.259 circulant 0.016 (null95 0.055)
+epoch  140: train 0.991 test 0.276 circulant 0.015 (null95 0.056)
+epoch  150: train 0.992 test 0.307 circulant 0.016 (null95 0.055)
+epoch  160: train 0.986 test 0.292 circulant 0.017 (null95 0.056)
+epoch  170: train 0.990 test 0.319 circulant 0.016 (null95 0.055)
+epoch  180: train 0.994 test 0.358 circulant 0.015 (null95 0.054)
+epoch  190: train 0.993 test 0.421 circulant 0.016 (null95 0.055)
+epoch  200: train 0.990 test 0.454 circulant 0.018 (null95 0.055)
+epoch  210: train 0.994 test 0.501 circulant 0.020 (null95 0.054)
+epoch  220: train 0.993 test 0.552 circulant 0.018 (null95 0.055)
+epoch  230: train 0.996 test 0.637 circulant 0.023 (null95 0.054)
+epoch  240: train 0.995 test 0.701 circulant 0.018 (null95 0.055)
+epoch  250: train 0.996 test 0.767 circulant 0.016 (null95 0.054)
+epoch  260: train 0.997 test 0.838 circulant 0.017 (null95 0.054)
+epoch  270: train 0.996 test 0.861 circulant 0.020 (null95 0.055)
+epoch  280: train 0.996 test 0.891 circulant 0.026 (null95 0.056)
+epoch  290: train 0.997 test 0.897 circulant 0.023 (null95 0.055)
+epoch  300: train 0.998 test 0.939 circulant 0.027 (null95 0.055)
+epoch  310: train 0.999 test 0.938 circulant 0.034 (null95 0.057)
+epoch  320: train 0.999 test 0.969 circulant 0.033 (null95 0.055)
+epoch  330: train 0.999 test 0.963 circulant 0.037 (null95 0.054)
+epoch  340: train 0.999 test 0.974 circulant 0.039 (null95 0.054)
+epoch  350: train 1.000 test 0.994 circulant 0.041 (null95 0.054)
+epoch  360: train 1.000 test 0.996 circulant 0.041 (null95 0.054)
+epoch  370: train 1.000 test 0.996 circulant 0.040 (null95 0.054)
+epoch  380: train 1.000 test 0.997 circulant 0.040 (null95 0.055)
+epoch  390: train 1.000 test 0.998 circulant 0.040 (null95 0.055)
+epoch  400: train 1.000 test 0.998 circulant 0.039 (null95 0.054)
+epoch  410: train 1.000 test 0.998 circulant 0.039 (null95 0.054)
+epoch  420: train 1.000 test 0.998 circulant 0.039 (null95 0.054)
+epoch  430: train 1.000 test 0.998 circulant 0.038 (null95 0.055)
+epoch  440: train 1.000 test 0.999 circulant 0.038 (null95 0.055)
+epoch  450: train 1.000 test 0.999 circulant 0.037 (null95 0.054)
+epoch  460: train 1.000 test 0.999 circulant 0.037 (null95 0.054)
+epoch  470: train 1.000 test 0.999 circulant 0.037 (null95 0.054)
+epoch  480: train 1.000 test 0.999 circulant 0.036 (null95 0.054)
+epoch  490: train 1.000 test 0.999 circulant 0.036 (null95 0.054)
+epoch  500: train 1.000 test 0.999 circulant 0.036 (null95 0.054)
+epoch  510: train 1.000 test 0.999 circulant 0.035 (null95 0.054)
+epoch  520: train 1.000 test 0.999 circulant 0.035 (null95 0.053)
+epoch  530: train 1.000 test 0.999 circulant 0.035 (null95 0.053)
+epoch  540: train 1.000 test 0.999 circulant 0.034 (null95 0.053)
+epoch  550: train 1.000 test 0.999 circulant 0.034 (null95 0.053)
+epoch  560: train 1.000 test 0.999 circulant 0.034 (null95 0.054)
+epoch  570: train 1.000 test 0.999 circulant 0.034 (null95 0.054)
+epoch  580: train 1.000 test 0.999 circulant 0.033 (null95 0.054)
+epoch  590: train 1.000 test 0.999 circulant 0.033 (null95 0.054)
+epoch  600: train 1.000 test 0.999 circulant 0.033 (null95 0.054)
+
+REPRODUCTION GATE: PASS (max |recomputed - logged| = 0.0; epoch-0 train acc 0.031)
+wrote runs\task0_split0_train3_m1_fixed_wd0.3\analysis\trajectory.npz
+C:\Users\Projects\differentiation_p0_training_v3\differentiation_p0_training\analysis\report.py:44: RuntimeWarning: Mean of empty slice
+  D = np.nanmean(t["D"][e_i, l], axis=0)
+C:\Users\Projects\differentiation_p0_training_v3\differentiation_p0_training\analysis\core.py:170: RuntimeWarning: Mean of empty slice
+  out = {"n_pairs": int(len(all_d)), "all_pairs_mean": float(all_d.mean()), "all_pairs_median": float(np.median(all_d))}
+C:\Users\Projects\differentiation_p0_training_v3\differentiation_p0_training\.differentiation_venv_v3\Lib\site-packages\numpy\_core\_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+C:\Users\Projects\differentiation_p0_training_v3\differentiation_p0_training\.differentiation_venv_v3\Lib\site-packages\numpy\_core\fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+
+=== transitions (first epoch with held-out/overall accuracy >= thr for `hold` consecutive checkpoints) ===
+  set/train                          transition epoch 30   crosses 50% at 17.065831987075928   final 1.000
+  set/id                             transition epoch 300   crosses 50% at 210.625   final 1.000
+  set/val                            transition epoch 300   crosses 50% at 209.53846153846155   final 1.000
+  set/test                           transition epoch 300   crosses 50% at 209.86666666666667   final 0.999
+  heldout_family/A->A                transition epoch 340   crosses 50% at 248.33333333333334   final 1.000
+  heldout_family/A->B                transition epoch 310   crosses 50% at 234.54545454545453   final 1.000
+  heldout_family/A->C                transition epoch 310   crosses 50% at 243.33333333333334   final 1.000
+  heldout_family/A->D                transition epoch 270   crosses 50% at 194.0   final 1.000
+  heldout_family/A->G                transition epoch 250   crosses 50% at 148.33333333333334   final 1.000
+  heldout_family/A->U                transition epoch 260   crosses 50% at 200.0   final 1.000
+  heldout_family/B->A                transition epoch 290   crosses 50% at 223.33333333333334   final 1.000
+  heldout_family/B->B                transition epoch 350   crosses 50% at 247.5   final 1.000
+  heldout_family/B->C                transition epoch 310   crosses 50% at 230.0   final 1.000
+  heldout_family/B->D                transition epoch 250   crosses 50% at 160.0   final 1.000
+  heldout_family/B->R                transition epoch 270   crosses 50% at 196.0   final 1.000
+  heldout_family/B->U                transition epoch 300   crosses 50% at 188.33333333333334   final 1.000
+  heldout_family/C->A                transition epoch 290   crosses 50% at 218.33333333333334   final 1.000
+  heldout_family/C->B                transition epoch 350   crosses 50% at 243.75   final 1.000
+  heldout_family/C->C                transition epoch 280   crosses 50% at 232.5   final 1.000
+  heldout_family/C->D                transition epoch 260   crosses 50% at 174.0   final 1.000
+  heldout_family/C->G                transition epoch 290   crosses 50% at 229.0909090909091   final 1.000
+  heldout_family/C->R                transition epoch 260   crosses 50% at 210.0   final 1.000
+  heldout_family/C->U                transition epoch 320   crosses 50% at 241.66666666666666   final 1.000
+  heldout_family/D->A                transition epoch 270   crosses 50% at 185.45454545454547   final 1.000
+  heldout_family/D->B                transition epoch 290   crosses 50% at 228.0   final 1.000
+  heldout_family/D->C                transition epoch 280   crosses 50% at 143.33333333333334   final 1.000
+  heldout_family/D->D                transition epoch 260   crosses 50% at 38.333333333333336   final 1.000
+  heldout_family/D->R                transition epoch 260   crosses 50% at 100.0   final 1.000
+  heldout_family/D->U                transition epoch 280   crosses 50% at 195.71428571428572   final 1.000
+  heldout_family/G->A                transition epoch 280   crosses 50% at 175.0   final 1.000
+  heldout_family/G->B                transition epoch 290   crosses 50% at 210.0   final 1.000
+  heldout_family/G->C                transition epoch 320   crosses 50% at 203.33333333333334   final 0.984
+  heldout_family/G->G                transition epoch 240   crosses 50% at 122.5   final 1.000
+  heldout_family/G->R                transition epoch 230   crosses 50% at 105.71428571428571   final 1.000
+  heldout_family/G->U                transition epoch 270   crosses 50% at 176.0   final 1.000
+  heldout_family/R->B                transition epoch 300   crosses 50% at 205.71428571428572   final 1.000
+  heldout_family/R->C                transition epoch 310   crosses 50% at 226.42857142857142   final 1.000
+  heldout_family/R->U                transition epoch 300   crosses 50% at 218.0   final 1.000
+  heldout_family/U->A                transition epoch 260   crosses 50% at 200.0   final 1.000
+  heldout_family/U->B                transition epoch 300   crosses 50% at 240.0   final 1.000
+  heldout_family/U->C                transition epoch 290   crosses 50% at 217.5   final 1.000
+  heldout_family/U->D                transition epoch 280   crosses 50% at 208.46153846153845   final 1.000
+  heldout_family/U->G                transition epoch 290   crosses 50% at 155.0   final 1.000
+  heldout_family/U->R                transition epoch 250   crosses 50% at 187.77777777777777   final 1.000
+  functions_solved_test_90           transition epoch 320   crosses 50% at 272.5   final 1.000
+
+=== D_R at final layer (2), first vs last checkpoint (percentile 0 = closest of 120 pairs) ===
+  epoch    0 R R1|R2   D_R 0.825  percentile 0.64  task agreement 1.00
+  epoch    0 G G1|G2   D_R 0.755  percentile 0.37  task agreement 0.50
+  epoch    0 D D1|D2   D_R 0.633  percentile 0.00  task agreement 0.50
+  epoch    0 U U1|U2   D_R 0.726  percentile 0.23  task agreement 0.03
+  epoch  600 R R1|R2   D_R 0.029  percentile 0.00  task agreement 1.00
+  epoch  600 G G1|G2   D_R 0.603  percentile 0.01  task agreement 0.50
+  epoch  600 D D1|D2   D_R 0.603  percentile 0.02  task agreement 0.50
+  epoch  600 U U1|U2   D_R 0.914  percentile 0.12  task agreement 0.03
+
+=== positive control: translation-invariant fraction of state-embedding geometry ===
+  epoch 0: 0.020   epoch 600: 0.033   (permutation null 95th percentile at final epoch: 0.054)
+C:\Users\Projects\differentiation_p0_training_v3\differentiation_p0_training\analysis\core.py:159: RuntimeWarning: invalid value encountered in scalar divide
+  D[s, i, j] = D[s, j, i] = np.linalg.norm(Hf[s, i][m] - Hf[s, j][m], axis=1).mean() / spread
+epoch    0: train 0.028 test 0.031 circulant 0.035 (null95 0.053)
+epoch   10: train 0.114 test 0.042 circulant 0.037 (null95 0.053)
+epoch   20: train 0.600 test 0.102 circulant 0.037 (null95 0.053)
+epoch   30: train 0.962 test 0.153 circulant 0.038 (null95 0.053)
+epoch   40: train 0.985 test 0.140 circulant 0.039 (null95 0.053)
+epoch   50: train 0.984 test 0.169 circulant 0.039 (null95 0.053)
+epoch   60: train 0.982 test 0.169 circulant 0.039 (null95 0.053)
+epoch   70: train 0.986 test 0.167 circulant 0.041 (null95 0.053)
+epoch   80: train 0.983 test 0.174 circulant 0.040 (null95 0.054)
+epoch   90: train 0.986 test 0.177 circulant 0.042 (null95 0.053)
+epoch  100: train 0.989 test 0.194 circulant 0.043 (null95 0.053)
+epoch  110: train 0.989 test 0.206 circulant 0.042 (null95 0.052)
+epoch  120: train 0.986 test 0.222 circulant 0.043 (null95 0.051)
+epoch  130: train 0.989 test 0.237 circulant 0.043 (null95 0.051)
+epoch  140: train 0.991 test 0.254 circulant 0.044 (null95 0.052)
+epoch  150: train 0.989 test 0.276 circulant 0.040 (null95 0.053)
+epoch  160: train 0.988 test 0.294 circulant 0.043 (null95 0.052)
+epoch  170: train 0.991 test 0.321 circulant 0.041 (null95 0.051)
+epoch  180: train 0.992 test 0.366 circulant 0.039 (null95 0.052)
+epoch  190: train 0.995 test 0.393 circulant 0.042 (null95 0.052)
+epoch  200: train 0.992 test 0.415 circulant 0.045 (null95 0.052)
+epoch  210: train 0.992 test 0.474 circulant 0.048 (null95 0.053)
+epoch  220: train 0.992 test 0.570 circulant 0.046 (null95 0.052)
+epoch  230: train 0.992 test 0.609 circulant 0.040 (null95 0.052)
+epoch  240: train 0.995 test 0.684 circulant 0.048 (null95 0.053)
+epoch  250: train 0.993 test 0.780 circulant 0.050 (null95 0.052)
+epoch  260: train 0.996 test 0.832 circulant 0.051 (null95 0.053)
+epoch  270: train 0.998 test 0.879 circulant 0.049 (null95 0.054)
+epoch  280: train 0.998 test 0.903 circulant 0.053 (null95 0.052)
+epoch  290: train 0.997 test 0.931 circulant 0.054 (null95 0.050)
+epoch  300: train 0.998 test 0.964 circulant 0.047 (null95 0.051)
+epoch  310: train 0.999 test 0.968 circulant 0.044 (null95 0.052)
+epoch  320: train 1.000 test 0.988 circulant 0.043 (null95 0.051)
+epoch  330: train 1.000 test 0.992 circulant 0.043 (null95 0.051)
+epoch  340: train 1.000 test 0.994 circulant 0.044 (null95 0.051)
+epoch  350: train 1.000 test 0.995 circulant 0.044 (null95 0.051)
+epoch  360: train 1.000 test 0.996 circulant 0.044 (null95 0.051)
+epoch  370: train 1.000 test 0.998 circulant 0.045 (null95 0.051)
+epoch  380: train 1.000 test 0.996 circulant 0.045 (null95 0.051)
+epoch  390: train 1.000 test 0.997 circulant 0.046 (null95 0.051)
+epoch  400: train 1.000 test 0.997 circulant 0.046 (null95 0.051)
+epoch  410: train 1.000 test 0.997 circulant 0.047 (null95 0.050)
+epoch  420: train 1.000 test 0.997 circulant 0.047 (null95 0.050)
+epoch  430: train 1.000 test 0.998 circulant 0.048 (null95 0.050)
+epoch  440: train 1.000 test 0.998 circulant 0.048 (null95 0.050)
+epoch  450: train 1.000 test 0.998 circulant 0.049 (null95 0.050)
+epoch  460: train 1.000 test 0.998 circulant 0.049 (null95 0.050)
+epoch  470: train 1.000 test 0.999 circulant 0.049 (null95 0.050)
+epoch  480: train 1.000 test 0.999 circulant 0.050 (null95 0.050)
+epoch  490: train 1.000 test 0.999 circulant 0.050 (null95 0.050)
+epoch  500: train 1.000 test 0.999 circulant 0.050 (null95 0.050)
+epoch  510: train 1.000 test 1.000 circulant 0.050 (null95 0.049)
+epoch  520: train 1.000 test 1.000 circulant 0.051 (null95 0.050)
+epoch  530: train 1.000 test 1.000 circulant 0.051 (null95 0.050)
+epoch  540: train 1.000 test 1.000 circulant 0.051 (null95 0.050)
+epoch  550: train 1.000 test 1.000 circulant 0.051 (null95 0.050)
+epoch  560: train 1.000 test 1.000 circulant 0.051 (null95 0.050)
+epoch  570: train 1.000 test 1.000 circulant 0.051 (null95 0.050)
+epoch  580: train 1.000 test 1.000 circulant 0.051 (null95 0.050)
+epoch  590: train 1.000 test 1.000 circulant 0.051 (null95 0.050)
+epoch  600: train 1.000 test 1.000 circulant 0.051 (null95 0.050)
+
+REPRODUCTION GATE: PASS (max |recomputed - logged| = 0.0; epoch-0 train acc 0.028)
+wrote runs\task0_split0_train4_m1_fixed_wd0.3\analysis\trajectory.npz
+C:\Users\Projects\differentiation_p0_training_v3\differentiation_p0_training\analysis\report.py:44: RuntimeWarning: Mean of empty slice
+  D = np.nanmean(t["D"][e_i, l], axis=0)
+C:\Users\Projects\differentiation_p0_training_v3\differentiation_p0_training\analysis\core.py:170: RuntimeWarning: Mean of empty slice
+  out = {"n_pairs": int(len(all_d)), "all_pairs_mean": float(all_d.mean()), "all_pairs_median": float(np.median(all_d))}
+C:\Users\Projects\differentiation_p0_training_v3\differentiation_p0_training\.differentiation_venv_v3\Lib\site-packages\numpy\_core\_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+C:\Users\Projects\differentiation_p0_training_v3\differentiation_p0_training\.differentiation_venv_v3\Lib\site-packages\numpy\_core\fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+
+=== transitions (first epoch with held-out/overall accuracy >= thr for `hold` consecutive checkpoints) ===
+  set/train                          transition epoch 30   crosses 50% at 17.94477234401349   final 1.000
+  set/id                             transition epoch 300   crosses 50% at 216.83098591549296   final 1.000
+  set/val                            transition epoch 280   crosses 50% at 215.28301886792454   final 1.000
+  set/test                           transition epoch 280   crosses 50% at 212.6797385620915   final 1.000
+  heldout_family/A->A                transition epoch 300   crosses 50% at 217.27272727272728   final 1.000
+  heldout_family/A->B                transition epoch 270   crosses 50% at 213.33333333333334   final 1.000
+  heldout_family/A->C                transition epoch 290   crosses 50% at 230.0   final 1.000
+  heldout_family/A->D                transition epoch 260   crosses 50% at 147.77777777777777   final 1.000
+  heldout_family/A->G                transition epoch 250   crosses 50% at 170.0   final 1.000
+  heldout_family/A->U                transition epoch 260   crosses 50% at 190.0   final 1.000
+  heldout_family/B->A                transition epoch 290   crosses 50% at 222.5   final 1.000
+  heldout_family/B->B                transition epoch 290   crosses 50% at 238.1818181818182   final 1.000
+  heldout_family/B->C                transition epoch 300   crosses 50% at 224.0   final 1.000
+  heldout_family/B->D                transition epoch 260   crosses 50% at 150.0   final 1.000
+  heldout_family/B->R                transition epoch 290   crosses 50% at 218.57142857142858   final 1.000
+  heldout_family/B->U                transition epoch 300   crosses 50% at 196.66666666666666   final 1.000
+  heldout_family/C->A                transition epoch 280   crosses 50% at 214.44444444444446   final 1.000
+  heldout_family/C->B                transition epoch 300   crosses 50% at 234.28571428571428   final 1.000
+  heldout_family/C->C                transition epoch 280   crosses 50% at 240.0   final 1.000
+  heldout_family/C->D                transition epoch 260   crosses 50% at 125.71428571428571   final 1.000
+  heldout_family/C->G                transition epoch 290   crosses 50% at 222.22222222222223   final 1.000
+  heldout_family/C->R                transition epoch 290   crosses 50% at 228.75   final 1.000
+  heldout_family/C->U                transition epoch 320   crosses 50% at 261.6666666666667   final 1.000
+  heldout_family/D->A                transition epoch 290   crosses 50% at 190.0   final 1.000
+  heldout_family/D->B                transition epoch 300   crosses 50% at 236.66666666666666   final 1.000
+  heldout_family/D->C                transition epoch 280   crosses 50% at 170.0   final 1.000
+  heldout_family/D->D                transition epoch 260   crosses 50% at 106.0   final 1.000
+  heldout_family/D->R                transition epoch 270   crosses 50% at 144.28571428571428   final 1.000
+  heldout_family/D->U                transition epoch 290   crosses 50% at 137.5   final 1.000
+  heldout_family/G->A                transition epoch 260   crosses 50% at 176.11111111111111   final 1.000
+  heldout_family/G->B                transition epoch 280   crosses 50% at 224.0   final 1.000
+  heldout_family/G->C                transition epoch 300   crosses 50% at 206.66666666666666   final 1.000
+  heldout_family/G->G                transition epoch 270   crosses 50% at 155.0   final 1.000
+  heldout_family/G->R                transition epoch 260   crosses 50% at 178.0   final 1.000
+  heldout_family/G->U                transition epoch 250   crosses 50% at 147.14285714285714   final 1.000
+  heldout_family/R->B                transition epoch 270   crosses 50% at 187.5   final 1.000
+  heldout_family/R->C                transition epoch 300   crosses 50% at 245.0   final 1.000
+  heldout_family/R->U                transition epoch 260   crosses 50% at 211.42857142857142   final 1.000
+  heldout_family/U->A                transition epoch 300   crosses 50% at 215.55555555555554   final 1.000
+  heldout_family/U->B                transition epoch 300   crosses 50% at 236.0   final 1.000
+  heldout_family/U->C                transition epoch 280   crosses 50% at 235.0   final 1.000
+  heldout_family/U->D                transition epoch 270   crosses 50% at 204.28571428571428   final 1.000
+  heldout_family/U->G                transition epoch 270   crosses 50% at 190.0   final 1.000
+  heldout_family/U->R                transition epoch 290   crosses 50% at 235.0   final 1.000
+  functions_solved_test_90           transition epoch 300   crosses 50% at 267.22222222222223   final 1.000
+
+=== D_R at final layer (2), first vs last checkpoint (percentile 0 = closest of 120 pairs) ===
+  epoch    0 R R1|R2   D_R 0.640  percentile 0.04  task agreement 1.00
+  epoch    0 G G1|G2   D_R 0.909  percentile 0.72  task agreement 0.50
+  epoch    0 D D1|D2   D_R 0.683  percentile 0.07  task agreement 0.50
+  epoch    0 U U1|U2   D_R 0.768  percentile 0.24  task agreement 0.03
+  epoch  600 R R1|R2   D_R 0.034  percentile 0.00  task agreement 1.00
+  epoch  600 G G1|G2   D_R 0.610  percentile 0.01  task agreement 0.50
+  epoch  600 D D1|D2   D_R 0.611  percentile 0.02  task agreement 0.50
+  epoch  600 U U1|U2   D_R 0.926  percentile 0.20  task agreement 0.03
+
+=== positive control: translation-invariant fraction of state-embedding geometry ===
+  epoch 0: 0.035   epoch 600: 0.051   (permutation null 95th percentile at final epoch: 0.050)
+C:\Users\Projects\differentiation_p0_training_v3\differentiation_p0_training\analysis\core.py:159: RuntimeWarning: invalid value encountered in scalar divide
+  D[s, i, j] = D[s, j, i] = np.linalg.norm(Hf[s, i][m] - Hf[s, j][m], axis=1).mean() / spread
+epoch    0: train 0.029 test 0.030 circulant 0.014 (null95 0.055)
+epoch   10: train 0.126 test 0.047 circulant 0.015 (null95 0.054)
+epoch   20: train 0.618 test 0.124 circulant 0.015 (null95 0.055)
+epoch   30: train 0.966 test 0.197 circulant 0.015 (null95 0.055)
+epoch   40: train 0.977 test 0.231 circulant 0.014 (null95 0.054)
+epoch   50: train 0.990 test 0.268 circulant 0.015 (null95 0.055)
+epoch   60: train 0.987 test 0.293 circulant 0.015 (null95 0.055)
+epoch   70: train 0.991 test 0.315 circulant 0.015 (null95 0.055)
+epoch   80: train 0.991 test 0.355 circulant 0.015 (null95 0.054)
+epoch   90: train 0.993 test 0.402 circulant 0.016 (null95 0.055)
+epoch  100: train 0.989 test 0.479 circulant 0.018 (null95 0.054)
+epoch  110: train 0.990 test 0.517 circulant 0.019 (null95 0.055)
+epoch  120: train 0.990 test 0.626 circulant 0.020 (null95 0.054)
+epoch  130: train 0.993 test 0.742 circulant 0.024 (null95 0.054)
+epoch  140: train 0.995 test 0.797 circulant 0.027 (null95 0.053)
+epoch  150: train 0.994 test 0.859 circulant 0.031 (null95 0.053)
+epoch  160: train 0.996 test 0.928 circulant 0.031 (null95 0.054)
+epoch  170: train 0.996 test 0.952 circulant 0.036 (null95 0.053)
+epoch  180: train 0.997 test 0.948 circulant 0.034 (null95 0.055)
+epoch  190: train 1.000 test 0.974 circulant 0.039 (null95 0.053)
+epoch  200: train 0.998 test 0.977 circulant 0.043 (null95 0.055)
+epoch  210: train 0.995 test 0.973 circulant 0.045 (null95 0.052)
+epoch  220: train 0.997 test 0.982 circulant 0.041 (null95 0.052)
+epoch  230: train 0.996 test 0.977 circulant 0.042 (null95 0.051)
+epoch  240: train 0.998 test 0.986 circulant 0.041 (null95 0.052)
+epoch  250: train 1.000 test 0.997 circulant 0.052 (null95 0.054)
+epoch  260: train 1.000 test 0.999 circulant 0.052 (null95 0.053)
+epoch  270: train 1.000 test 0.999 circulant 0.052 (null95 0.053)
+epoch  280: train 1.000 test 1.000 circulant 0.052 (null95 0.053)
+epoch  290: train 1.000 test 1.000 circulant 0.051 (null95 0.053)
+epoch  300: train 1.000 test 1.000 circulant 0.051 (null95 0.052)
+epoch  310: train 1.000 test 1.000 circulant 0.050 (null95 0.052)
+epoch  320: train 1.000 test 1.000 circulant 0.049 (null95 0.053)
+epoch  330: train 1.000 test 1.000 circulant 0.049 (null95 0.054)
+epoch  340: train 1.000 test 1.000 circulant 0.048 (null95 0.054)
+epoch  350: train 1.000 test 1.000 circulant 0.047 (null95 0.054)
+epoch  360: train 1.000 test 1.000 circulant 0.046 (null95 0.054)
+epoch  370: train 1.000 test 1.000 circulant 0.045 (null95 0.054)
+epoch  380: train 1.000 test 1.000 circulant 0.044 (null95 0.054)
+epoch  390: train 1.000 test 1.000 circulant 0.043 (null95 0.054)
+epoch  400: train 1.000 test 1.000 circulant 0.043 (null95 0.054)
+epoch  410: train 1.000 test 1.000 circulant 0.042 (null95 0.054)
+epoch  420: train 1.000 test 1.000 circulant 0.042 (null95 0.054)
+epoch  430: train 1.000 test 1.000 circulant 0.041 (null95 0.053)
+epoch  440: train 1.000 test 1.000 circulant 0.041 (null95 0.053)
+epoch  450: train 1.000 test 1.000 circulant 0.040 (null95 0.053)
+epoch  460: train 1.000 test 1.000 circulant 0.040 (null95 0.053)
+epoch  470: train 0.035 test 0.036 circulant 0.035 (null95 0.054)
+epoch  480: train 0.523 test 0.221 circulant 0.033 (null95 0.054)
+epoch  490: train 0.998 test 0.858 circulant 0.028 (null95 0.055)
+epoch  500: train 1.000 test 0.971 circulant 0.027 (null95 0.054)
+epoch  510: train 1.000 test 0.983 circulant 0.027 (null95 0.054)
+epoch  520: train 1.000 test 0.991 circulant 0.027 (null95 0.054)
+epoch  530: train 1.000 test 0.991 circulant 0.026 (null95 0.055)
+epoch  540: train 1.000 test 0.992 circulant 0.026 (null95 0.055)
+epoch  550: train 1.000 test 0.994 circulant 0.026 (null95 0.055)
+epoch  560: train 1.000 test 0.994 circulant 0.026 (null95 0.055)
+epoch  570: train 1.000 test 0.996 circulant 0.026 (null95 0.055)
+epoch  580: train 1.000 test 0.996 circulant 0.026 (null95 0.055)
+epoch  590: train 1.000 test 0.998 circulant 0.026 (null95 0.055)
+epoch  600: train 1.000 test 0.999 circulant 0.026 (null95 0.055)
+
+REPRODUCTION GATE: PASS (max |recomputed - logged| = 0.0; epoch-0 train acc 0.029)
+wrote runs\task0_split0_train5_m1_fixed_wd0.3\analysis\trajectory.npz
+C:\Users\Projects\differentiation_p0_training_v3\differentiation_p0_training\analysis\report.py:44: RuntimeWarning: Mean of empty slice
+  D = np.nanmean(t["D"][e_i, l], axis=0)
+C:\Users\Projects\differentiation_p0_training_v3\differentiation_p0_training\analysis\core.py:170: RuntimeWarning: Mean of empty slice
+  out = {"n_pairs": int(len(all_d)), "all_pairs_mean": float(all_d.mean()), "all_pairs_median": float(np.median(all_d))}
+C:\Users\Projects\differentiation_p0_training_v3\differentiation_p0_training\.differentiation_venv_v3\Lib\site-packages\numpy\_core\_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+C:\Users\Projects\differentiation_p0_training_v3\differentiation_p0_training\.differentiation_venv_v3\Lib\site-packages\numpy\_core\fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+
+=== transitions (first epoch with held-out/overall accuracy >= thr for `hold` consecutive checkpoints) ===
+  set/train                          transition epoch 30   crosses 50% at 17.599916736053288   final 1.000
+  set/id                             transition epoch 160   crosses 50% at 105.83333333333333   final 0.998
+  set/val                            transition epoch 160   crosses 50% at 104.04255319148936   final 1.000
+  set/test                           transition epoch 160   crosses 50% at 105.48387096774194   final 0.999
+  heldout_family/A->A                transition epoch 190   crosses 50% at 128.57142857142858   final 1.000
+  heldout_family/A->B                transition epoch 190   crosses 50% at 118.57142857142857   final 1.000
+  heldout_family/A->C                transition epoch 200   crosses 50% at 143.75   final 1.000
+  heldout_family/A->D                transition epoch 160   crosses 50% at 95.0   final 1.000
+  heldout_family/A->G                transition epoch 150   crosses 50% at 60.0   final 1.000
+  heldout_family/A->U                transition epoch 160   crosses 50% at 115.0   final 1.000
+  heldout_family/B->A                transition epoch 170   crosses 50% at 123.33333333333333   final 1.000
+  heldout_family/B->B                transition epoch 180   crosses 50% at 118.57142857142857   final 1.000
+  heldout_family/B->C                transition epoch 160   crosses 50% at 108.0   final 1.000
+  heldout_family/B->D                transition epoch 160   crosses 50% at 72.5   final 1.000
+  heldout_family/B->R                transition epoch 160   crosses 50% at 133.68421052631578   final 1.000
+  heldout_family/B->U                transition epoch 160   crosses 50% at 100.0   final 1.000
+  heldout_family/C->A                transition epoch 160   crosses 50% at 110.0   final 1.000
+  heldout_family/C->B                transition epoch 180   crosses 50% at 116.3157894736842   final 0.990
+  heldout_family/C->C                transition epoch 160   crosses 50% at 110.0   final 1.000
+  heldout_family/C->D                transition epoch 160   crosses 50% at 78.0   final 1.000
+  heldout_family/C->G                transition epoch 190   crosses 50% at 118.57142857142857   final 1.000
+  heldout_family/C->R                transition epoch 170   crosses 50% at 133.88888888888889   final 1.000
+  heldout_family/C->U                transition epoch 170   crosses 50% at 123.33333333333333   final 1.000
+  heldout_family/D->A                transition epoch 150   crosses 50% at 83.63636363636364   final 1.000
+  heldout_family/D->B                transition epoch 160   crosses 50% at 100.0   final 1.000
+  heldout_family/D->C                transition epoch 150   crosses 50% at 52.857142857142854   final 1.000
+  heldout_family/D->D                transition epoch 170   crosses 50% at 60.0   final 1.000
+  heldout_family/D->R                transition epoch 160   crosses 50% at 67.5   final 1.000
+  heldout_family/D->U                transition epoch 150   crosses 50% at 74.0   final 1.000
+  heldout_family/G->A                transition epoch 160   crosses 50% at 70.0   final 1.000
+  heldout_family/G->B                transition epoch 160   crosses 50% at 104.44444444444444   final 1.000
+  heldout_family/G->C                transition epoch 160   crosses 50% at 78.18181818181819   final 1.000
+  heldout_family/G->G                transition epoch 160   crosses 50% at 46.666666666666664   final 1.000
+  heldout_family/G->R                transition epoch 170   crosses 50% at 39.473684210526315   final 1.000
+  heldout_family/G->U                transition epoch 150   crosses 50% at 70.0   final 1.000
+  heldout_family/R->B                transition epoch 150   crosses 50% at 94.66666666666667   final 1.000
+  heldout_family/R->C                transition epoch 160   crosses 50% at 99.47368421052632   final 1.000
+  heldout_family/R->U                transition epoch 150   crosses 50% at 114.83870967741936   final 1.000
+  heldout_family/U->A                transition epoch 150   crosses 50% at 94.54545454545455   final 1.000
+  heldout_family/U->B                transition epoch 160   crosses 50% at 112.0   final 1.000
+  heldout_family/U->C                transition epoch 160   crosses 50% at 98.88888888888889   final 1.000
+  heldout_family/U->D                transition epoch 160   crosses 50% at 100.58823529411765   final 1.000
+  heldout_family/U->G                transition epoch 150   crosses 50% at 66.0   final 1.000
+  heldout_family/U->R                transition epoch 170   crosses 50% at 116.0   final 1.000
+  functions_solved_test_90           transition epoch 190   crosses 50% at 153.05555555555554   final 1.000
+
+=== D_R at final layer (2), first vs last checkpoint (percentile 0 = closest of 120 pairs) ===
+  epoch    0 R R1|R2   D_R 0.714  percentile 0.27  task agreement 1.00
+  epoch    0 G G1|G2   D_R 0.818  percentile 0.63  task agreement 0.50
+  epoch    0 D D1|D2   D_R 0.971  percentile 0.97  task agreement 0.50
+  epoch    0 U U1|U2   D_R 0.786  percentile 0.53  task agreement 0.03
+  epoch  600 R R1|R2   D_R 0.018  percentile 0.00  task agreement 1.00
+  epoch  600 G G1|G2   D_R 0.614  percentile 0.02  task agreement 0.50
+  epoch  600 D D1|D2   D_R 0.598  percentile 0.01  task agreement 0.50
+  epoch  600 U U1|U2   D_R 0.916  percentile 0.37  task agreement 0.03
+
+=== positive control: translation-invariant fraction of state-embedding geometry ===
+  epoch 0: 0.014   epoch 600: 0.026   (permutation null 95th percentile at final epoch: 0.055)
+C:\Users\Projects\differentiation_p0_training_v3\differentiation_p0_training\analysis\core.py:159: RuntimeWarning: invalid value encountered in scalar divide
+  D[s, i, j] = D[s, j, i] = np.linalg.norm(Hf[s, i][m] - Hf[s, j][m], axis=1).mean() / spread
+epoch    0: train 0.028 test 0.034 circulant 0.023 (null95 0.052)
+epoch   10: train 0.144 test 0.051 circulant 0.022 (null95 0.052)
+epoch   20: train 0.693 test 0.131 circulant 0.023 (null95 0.053)
+epoch   30: train 0.961 test 0.188 circulant 0.022 (null95 0.052)
+epoch   40: train 0.971 test 0.219 circulant 0.022 (null95 0.053)
+epoch   50: train 0.981 test 0.242 circulant 0.021 (null95 0.053)
+epoch   60: train 0.990 test 0.275 circulant 0.022 (null95 0.053)
+epoch   70: train 0.989 test 0.278 circulant 0.023 (null95 0.052)
+epoch   80: train 0.990 test 0.317 circulant 0.023 (null95 0.053)
+epoch   90: train 0.985 test 0.346 circulant 0.022 (null95 0.053)
+epoch  100: train 0.993 test 0.387 circulant 0.022 (null95 0.053)
+epoch  110: train 0.991 test 0.438 circulant 0.021 (null95 0.053)
+epoch  120: train 0.990 test 0.508 circulant 0.023 (null95 0.052)
+epoch  130: train 0.990 test 0.613 circulant 0.022 (null95 0.052)
+epoch  140: train 0.990 test 0.661 circulant 0.023 (null95 0.052)
+epoch  150: train 0.994 test 0.756 circulant 0.022 (null95 0.053)
+epoch  160: train 0.993 test 0.834 circulant 0.023 (null95 0.052)
+epoch  170: train 0.996 test 0.882 circulant 0.024 (null95 0.055)
+epoch  180: train 0.997 test 0.943 circulant 0.023 (null95 0.054)
+epoch  190: train 0.997 test 0.951 circulant 0.026 (null95 0.052)
+epoch  200: train 0.997 test 0.959 circulant 0.023 (null95 0.052)
+epoch  210: train 0.997 test 0.981 circulant 0.024 (null95 0.053)
+epoch  220: train 0.999 test 0.994 circulant 0.021 (null95 0.053)
+epoch  230: train 0.998 test 0.986 circulant 0.021 (null95 0.054)
+epoch  240: train 0.996 test 0.992 circulant 0.021 (null95 0.053)
+epoch  250: train 0.997 test 0.984 circulant 0.023 (null95 0.051)
+epoch  260: train 1.000 test 0.999 circulant 0.024 (null95 0.052)
+epoch  270: train 1.000 test 1.000 circulant 0.024 (null95 0.052)
+epoch  280: train 1.000 test 1.000 circulant 0.025 (null95 0.052)
+epoch  290: train 1.000 test 1.000 circulant 0.025 (null95 0.052)
+epoch  300: train 1.000 test 1.000 circulant 0.025 (null95 0.053)
+epoch  310: train 1.000 test 1.000 circulant 0.025 (null95 0.053)
+epoch  320: train 1.000 test 1.000 circulant 0.026 (null95 0.053)
+epoch  330: train 1.000 test 1.000 circulant 0.026 (null95 0.053)
+epoch  340: train 1.000 test 1.000 circulant 0.026 (null95 0.053)
+epoch  350: train 1.000 test 1.000 circulant 0.027 (null95 0.053)
+epoch  360: train 1.000 test 1.000 circulant 0.027 (null95 0.053)
+epoch  370: train 1.000 test 1.000 circulant 0.027 (null95 0.054)
+epoch  380: train 1.000 test 1.000 circulant 0.027 (null95 0.053)
+epoch  390: train 1.000 test 1.000 circulant 0.027 (null95 0.054)
+epoch  400: train 1.000 test 1.000 circulant 0.028 (null95 0.053)
+epoch  410: train 1.000 test 1.000 circulant 0.028 (null95 0.053)
+epoch  420: train 1.000 test 1.000 circulant 0.028 (null95 0.054)
+epoch  430: train 1.000 test 1.000 circulant 0.028 (null95 0.053)
+epoch  440: train 1.000 test 1.000 circulant 0.028 (null95 0.053)
+epoch  450: train 1.000 test 1.000 circulant 0.029 (null95 0.053)
+epoch  460: train 1.000 test 1.000 circulant 0.029 (null95 0.053)
+epoch  470: train 1.000 test 1.000 circulant 0.029 (null95 0.052)
+epoch  480: train 1.000 test 1.000 circulant 0.030 (null95 0.052)
+epoch  490: train 0.069 test 0.040 circulant 0.047 (null95 0.052)
+epoch  500: train 0.145 test 0.052 circulant 0.058 (null95 0.051)
+epoch  510: train 0.291 test 0.083 circulant 0.061 (null95 0.053)
+epoch  520: train 0.476 test 0.148 circulant 0.055 (null95 0.054)
+epoch  530: train 0.709 test 0.233 circulant 0.054 (null95 0.054)
+epoch  540: train 0.893 test 0.395 circulant 0.051 (null95 0.054)
+epoch  550: train 0.989 test 0.546 circulant 0.048 (null95 0.053)
+epoch  560: train 0.999 test 0.677 circulant 0.046 (null95 0.053)
+epoch  570: train 0.999 test 0.766 circulant 0.045 (null95 0.053)
+epoch  580: train 1.000 test 0.828 circulant 0.044 (null95 0.053)
+epoch  590: train 1.000 test 0.841 circulant 0.044 (null95 0.053)
+epoch  600: train 1.000 test 0.848 circulant 0.044 (null95 0.054)
+
+REPRODUCTION GATE: PASS (max |recomputed - logged| = 0.0; epoch-0 train acc 0.028)
+wrote runs\task0_split0_train6_m1_fixed_wd0.3\analysis\trajectory.npz
+C:\Users\Projects\differentiation_p0_training_v3\differentiation_p0_training\analysis\report.py:44: RuntimeWarning: Mean of empty slice
+  D = np.nanmean(t["D"][e_i, l], axis=0)
+C:\Users\Projects\differentiation_p0_training_v3\differentiation_p0_training\analysis\core.py:170: RuntimeWarning: Mean of empty slice
+  out = {"n_pairs": int(len(all_d)), "all_pairs_mean": float(all_d.mean()), "all_pairs_median": float(np.median(all_d))}
+C:\Users\Projects\differentiation_p0_training_v3\differentiation_p0_training\.differentiation_venv_v3\Lib\site-packages\numpy\_core\_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+C:\Users\Projects\differentiation_p0_training_v3\differentiation_p0_training\.differentiation_venv_v3\Lib\site-packages\numpy\_core\fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+
+=== transitions (first epoch with held-out/overall accuracy >= thr for `hold` consecutive checkpoints) ===
+  set/train                          transition epoch 30   crosses 50% at 16.477272727272727   final 1.000
+  set/id                             transition epoch 180   crosses 50% at 123.0952380952381   final 0.807
+  set/val                            transition epoch 170   crosses 50% at 120.41666666666666   final 0.840
+  set/test                           transition epoch 180   crosses 50% at 118.84955752212389   final 0.848
+  heldout_family/A->A                transition epoch 160   crosses 50% at 115.0   final 0.844
+  heldout_family/A->B                transition epoch 180   crosses 50% at 126.25   final 0.812
+  heldout_family/A->C                transition epoch 210   crosses 50% at 146.66666666666666   final 0.719
+  heldout_family/A->D                transition epoch 160   crosses 50% at 90.0   final 0.938
+  heldout_family/A->G                transition epoch 170   crosses 50% at 90.0   final 0.969
+  heldout_family/A->U                transition epoch 160   crosses 50% at 105.0   final 0.938
+  heldout_family/B->A                transition epoch 170   crosses 50% at 137.5   final 0.734
+  heldout_family/B->B                transition epoch 200   crosses 50% at 130.0   final 0.672
+  heldout_family/B->C                transition epoch 180   crosses 50% at 122.0   final 0.891
+  heldout_family/B->D                transition epoch 160   crosses 50% at 85.0   final 0.953
+  heldout_family/B->R                transition epoch 200   crosses 50% at 128.33333333333334   final 0.656
+  heldout_family/B->U                transition epoch 180   crosses 50% at 128.57142857142858   final 0.969
+  heldout_family/C->A                transition epoch 170   crosses 50% at 126.66666666666667   final 0.906
+  heldout_family/C->B                transition epoch 180   crosses 50% at 123.88888888888889   final 0.823
+  heldout_family/C->C                transition epoch 170   crosses 50% at 124.0   final 0.844
+  heldout_family/C->D                transition epoch 150   crosses 50% at 40.0   final 0.844
+  heldout_family/C->G                transition epoch 170   crosses 50% at 135.0   final 0.906
+  heldout_family/C->R                transition epoch 200   crosses 50% at 148.75   final 0.812
+  heldout_family/C->U                transition epoch 210   crosses 50% at 150.0   final 0.875
+  heldout_family/D->A                transition epoch 170   crosses 50% at 105.0   final 0.875
+  heldout_family/D->B                transition epoch 160   crosses 50% at 116.66666666666667   final 0.828
+  heldout_family/D->C                transition epoch 170   crosses 50% at 75.0   final 0.859
+  heldout_family/D->D                transition epoch 150   crosses 50% at 32.5   final 0.906
+  heldout_family/D->R                transition epoch 180   crosses 50% at 115.71428571428571   final 0.828
+  heldout_family/D->U                transition epoch 170   crosses 50% at 58.0   final 0.844
+  heldout_family/G->A                transition epoch 150   crosses 50% at 76.66666666666667   final 0.922
+  heldout_family/G->B                transition epoch 170   crosses 50% at 121.33333333333333   final 0.823
+  heldout_family/G->C                transition epoch 170   crosses 50% at 78.0   final 0.906
+  heldout_family/G->G                transition epoch 160   crosses 50% at 63.333333333333336   final 0.875
+  heldout_family/G->R                transition epoch 190   crosses 50% at 130.0   final 0.781
+  heldout_family/G->U                transition epoch 140   crosses 50% at 83.33333333333333   final 0.938
+  heldout_family/R->B                transition epoch 150   crosses 50% at 105.0   final 0.719
+  heldout_family/R->C                transition epoch 210   crosses 50% at 126.15384615384616   final 0.703
+  heldout_family/R->U                transition epoch 180   crosses 50% at 120.6896551724138   final 0.781
+  heldout_family/U->A                transition epoch 200   crosses 50% at 115.0   final 0.844
+  heldout_family/U->B                transition epoch 190   crosses 50% at 126.66666666666667   final 0.875
+  heldout_family/U->C                transition epoch 200   crosses 50% at 126.66666666666667   final 0.875
+  heldout_family/U->D                transition epoch 170   crosses 50% at 113.125   final 0.914
+  heldout_family/U->G                transition epoch 180   crosses 50% at 100.0   final 0.906
+  heldout_family/U->R                transition epoch 210   crosses 50% at 143.33333333333334   final 0.828
+  functions_solved_test_90           transition epoch 200   crosses 50% at 164.5   final 0.419
+
+=== D_R at final layer (2), first vs last checkpoint (percentile 0 = closest of 120 pairs) ===
+  epoch    0 R R1|R2   D_R 0.388  percentile 0.00  task agreement 1.00
+  epoch    0 G G1|G2   D_R 0.700  percentile 0.80  task agreement 0.50
+  epoch    0 D D1|D2   D_R 0.527  percentile 0.23  task agreement 0.50
+  epoch    0 U U1|U2   D_R 0.524  percentile 0.19  task agreement 0.03
+  epoch  600 R R1|R2   D_R 0.026  percentile 0.00  task agreement 1.00
+  epoch  600 G G1|G2   D_R 0.619  percentile 0.02  task agreement 0.50
+  epoch  600 D D1|D2   D_R 0.614  percentile 0.01  task agreement 0.50
+  epoch  600 U U1|U2   D_R 0.860  percentile 0.13  task agreement 0.03
+
+=== positive control: translation-invariant fraction of state-embedding geometry ===
+  epoch 0: 0.023   epoch 600: 0.044   (permutation null 95th percentile at final epoch: 0.054)
+C:\Users\Projects\differentiation_p0_training_v3\differentiation_p0_training\analysis\core.py:159: RuntimeWarning: invalid value encountered in scalar divide
+  D[s, i, j] = D[s, j, i] = np.linalg.norm(Hf[s, i][m] - Hf[s, j][m], axis=1).mean() / spread
+epoch    0: train 0.033 test 0.029 circulant 0.041 (null95 0.053)
+epoch   10: train 0.122 test 0.049 circulant 0.041 (null95 0.053)
+epoch   20: train 0.630 test 0.104 circulant 0.042 (null95 0.053)
+epoch   30: train 0.959 test 0.133 circulant 0.042 (null95 0.053)
+epoch   40: train 0.987 test 0.146 circulant 0.043 (null95 0.053)
+epoch   50: train 0.978 test 0.152 circulant 0.043 (null95 0.053)
+epoch   60: train 0.985 test 0.169 circulant 0.044 (null95 0.053)
+epoch   70: train 0.986 test 0.167 circulant 0.046 (null95 0.053)
+epoch   80: train 0.986 test 0.191 circulant 0.046 (null95 0.053)
+epoch   90: train 0.985 test 0.187 circulant 0.048 (null95 0.053)
+epoch  100: train 0.991 test 0.217 circulant 0.050 (null95 0.052)
+epoch  110: train 0.986 test 0.207 circulant 0.051 (null95 0.052)
+epoch  120: train 0.985 test 0.245 circulant 0.049 (null95 0.052)
+epoch  130: train 0.988 test 0.242 circulant 0.050 (null95 0.053)
+epoch  140: train 0.991 test 0.281 circulant 0.051 (null95 0.053)
+epoch  150: train 0.993 test 0.279 circulant 0.048 (null95 0.053)
+epoch  160: train 0.988 test 0.312 circulant 0.052 (null95 0.053)
+epoch  170: train 0.991 test 0.350 circulant 0.051 (null95 0.053)
+epoch  180: train 0.993 test 0.384 circulant 0.053 (null95 0.054)
+epoch  190: train 0.991 test 0.438 circulant 0.056 (null95 0.053)
+epoch  200: train 0.990 test 0.473 circulant 0.056 (null95 0.054)
+epoch  210: train 0.993 test 0.510 circulant 0.057 (null95 0.052)
+epoch  220: train 0.995 test 0.586 circulant 0.055 (null95 0.052)
+epoch  230: train 0.992 test 0.662 circulant 0.050 (null95 0.053)
+epoch  240: train 0.996 test 0.722 circulant 0.053 (null95 0.053)
+epoch  250: train 0.996 test 0.797 circulant 0.057 (null95 0.052)
+epoch  260: train 0.997 test 0.841 circulant 0.050 (null95 0.052)
+epoch  270: train 0.997 test 0.899 circulant 0.055 (null95 0.053)
+epoch  280: train 0.996 test 0.912 circulant 0.057 (null95 0.053)
+epoch  290: train 0.995 test 0.931 circulant 0.050 (null95 0.052)
+epoch  300: train 0.998 test 0.958 circulant 0.060 (null95 0.053)
+epoch  310: train 0.998 test 0.959 circulant 0.059 (null95 0.052)
+epoch  320: train 0.998 test 0.966 circulant 0.056 (null95 0.051)
+epoch  330: train 1.000 test 0.987 circulant 0.064 (null95 0.052)
+epoch  340: train 0.998 test 0.972 circulant 0.060 (null95 0.050)
+epoch  350: train 1.000 test 0.993 circulant 0.072 (null95 0.049)
+epoch  360: train 1.000 test 0.997 circulant 0.068 (null95 0.049)
+epoch  370: train 1.000 test 0.998 circulant 0.068 (null95 0.050)
+epoch  380: train 1.000 test 0.999 circulant 0.068 (null95 0.050)
+epoch  390: train 1.000 test 0.999 circulant 0.068 (null95 0.050)
+epoch  400: train 1.000 test 1.000 circulant 0.069 (null95 0.050)
+epoch  410: train 1.000 test 1.000 circulant 0.069 (null95 0.050)
+epoch  420: train 1.000 test 1.000 circulant 0.069 (null95 0.050)
+epoch  430: train 1.000 test 1.000 circulant 0.069 (null95 0.050)
+epoch  440: train 1.000 test 1.000 circulant 0.069 (null95 0.050)
+epoch  450: train 1.000 test 1.000 circulant 0.069 (null95 0.051)
+epoch  460: train 1.000 test 1.000 circulant 0.069 (null95 0.051)
+epoch  470: train 1.000 test 1.000 circulant 0.069 (null95 0.051)
+epoch  480: train 1.000 test 1.000 circulant 0.070 (null95 0.051)
+epoch  490: train 1.000 test 1.000 circulant 0.070 (null95 0.051)
+epoch  500: train 1.000 test 1.000 circulant 0.070 (null95 0.051)
+epoch  510: train 1.000 test 1.000 circulant 0.070 (null95 0.052)
+epoch  520: train 1.000 test 1.000 circulant 0.070 (null95 0.052)
+epoch  530: train 1.000 test 1.000 circulant 0.070 (null95 0.052)
+epoch  540: train 1.000 test 1.000 circulant 0.070 (null95 0.052)
+epoch  550: train 1.000 test 1.000 circulant 0.070 (null95 0.052)
+epoch  560: train 1.000 test 1.000 circulant 0.070 (null95 0.052)
+epoch  570: train 1.000 test 1.000 circulant 0.071 (null95 0.052)
+epoch  580: train 1.000 test 1.000 circulant 0.071 (null95 0.052)
+epoch  590: train 1.000 test 1.000 circulant 0.071 (null95 0.052)
+epoch  600: train 1.000 test 1.000 circulant 0.071 (null95 0.052)
+
+REPRODUCTION GATE: PASS (max |recomputed - logged| = 0.0; epoch-0 train acc 0.033)
+wrote runs\task0_split0_train7_m1_fixed_wd0.3\analysis\trajectory.npz
+C:\Users\Projects\differentiation_p0_training_v3\differentiation_p0_training\analysis\report.py:44: RuntimeWarning: Mean of empty slice
+  D = np.nanmean(t["D"][e_i, l], axis=0)
+C:\Users\Projects\differentiation_p0_training_v3\differentiation_p0_training\analysis\core.py:170: RuntimeWarning: Mean of empty slice
+  out = {"n_pairs": int(len(all_d)), "all_pairs_mean": float(all_d.mean()), "all_pairs_median": float(np.median(all_d))}
+C:\Users\Projects\differentiation_p0_training_v3\differentiation_p0_training\.differentiation_venv_v3\Lib\site-packages\numpy\_core\_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+C:\Users\Projects\differentiation_p0_training_v3\differentiation_p0_training\.differentiation_venv_v3\Lib\site-packages\numpy\_core\fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+
+=== transitions (first epoch with held-out/overall accuracy >= thr for `hold` consecutive checkpoints) ===
+  set/train                          transition epoch 30   crosses 50% at 17.44153225806452   final 1.000
+  set/id                             transition epoch 290   crosses 50% at 218.76623376623377   final 1.000
+  set/val                            transition epoch 290   crosses 50% at 218.33333333333334   final 1.000
+  set/test                           transition epoch 280   crosses 50% at 207.28813559322035   final 1.000
+  heldout_family/A->A                transition epoch 310   crosses 50% at 228.57142857142858   final 1.000
+  heldout_family/A->B                transition epoch 300   crosses 50% at 241.0   final 1.000
+  heldout_family/A->C                transition epoch 330   crosses 50% at 252.0   final 1.000
+  heldout_family/A->D                transition epoch 260   crosses 50% at 172.72727272727272   final 1.000
+  heldout_family/A->G                transition epoch 230   crosses 50% at 112.0   final 1.000
+  heldout_family/A->U                transition epoch 250   crosses 50% at 183.33333333333334   final 1.000
+  heldout_family/B->A                transition epoch 270   crosses 50% at 215.0   final 1.000
+  heldout_family/B->B                transition epoch 320   crosses 50% at 256.0   final 1.000
+  heldout_family/B->C                transition epoch 330   crosses 50% at 240.0   final 1.000
+  heldout_family/B->D                transition epoch 250   crosses 50% at 155.71428571428572   final 1.000
+  heldout_family/B->R                transition epoch 270   crosses 50% at 187.5   final 1.000
+  heldout_family/B->U                transition epoch 270   crosses 50% at 218.0   final 1.000
+  heldout_family/C->A                transition epoch 280   crosses 50% at 195.0   final 1.000
+  heldout_family/C->B                transition epoch 320   crosses 50% at 240.0   final 1.000
+  heldout_family/C->C                transition epoch 320   crosses 50% at 253.33333333333334   final 1.000
+  heldout_family/C->D                transition epoch 260   crosses 50% at 160.0   final 1.000
+  heldout_family/C->G                transition epoch 320   crosses 50% at 225.45454545454547   final 1.000
+  heldout_family/C->R                transition epoch 330   crosses 50% at 230.0   final 1.000
+  heldout_family/C->U                transition epoch 350   crosses 50% at 235.0   final 1.000
+  heldout_family/D->A                transition epoch 250   crosses 50% at 170.0   final 1.000
+  heldout_family/D->B                transition epoch 280   crosses 50% at 235.0   final 1.000
+  heldout_family/D->C                transition epoch 260   crosses 50% at 191.66666666666666   final 1.000
+  heldout_family/D->D                transition epoch 240   crosses 50% at 78.33333333333333   final 1.000
+  heldout_family/D->R                transition epoch 250   crosses 50% at 117.85714285714286   final 1.000
+  heldout_family/D->U                transition epoch 250   crosses 50% at 147.5   final 1.000
+  heldout_family/G->A                transition epoch 270   crosses 50% at 207.77777777777777   final 1.000
+  heldout_family/G->B                transition epoch 300   crosses 50% at 228.57142857142856   final 1.000
+  heldout_family/G->C                transition epoch 280   crosses 50% at 214.28571428571428   final 1.000
+  heldout_family/G->G                transition epoch 230   crosses 50% at 60.0   final 1.000
+  heldout_family/G->R                transition epoch 260   crosses 50% at 152.5   final 1.000
+  heldout_family/G->U                transition epoch 250   crosses 50% at 187.5   final 1.000
+  heldout_family/R->B                transition epoch 280   crosses 50% at 217.5   final 1.000
+  heldout_family/R->C                transition epoch 330   crosses 50% at 236.0   final 1.000
+  heldout_family/R->U                transition epoch 260   crosses 50% at 188.23529411764707   final 1.000
+  heldout_family/U->A                transition epoch 280   crosses 50% at 217.14285714285714   final 1.000
+  heldout_family/U->B                transition epoch 300   crosses 50% at 238.33333333333334   final 1.000
+  heldout_family/U->C                transition epoch 300   crosses 50% at 233.0   final 1.000
+  heldout_family/U->D                transition epoch 250   crosses 50% at 188.1818181818182   final 1.000
+  heldout_family/U->G                transition epoch 240   crosses 50% at 140.0   final 1.000
+  heldout_family/U->R                transition epoch 270   crosses 50% at 211.0   final 1.000
+  functions_solved_test_90           transition epoch 320   crosses 50% at 263.8888888888889   final 1.000
+
+=== D_R at final layer (2), first vs last checkpoint (percentile 0 = closest of 120 pairs) ===
+  epoch    0 R R1|R2   D_R 0.717  percentile 0.29  task agreement 1.00
+  epoch    0 G G1|G2   D_R 0.797  percentile 0.66  task agreement 0.50
+  epoch    0 D D1|D2   D_R 0.665  percentile 0.11  task agreement 0.50
+  epoch    0 U U1|U2   D_R 0.737  percentile 0.42  task agreement 0.03
+  epoch  600 R R1|R2   D_R 0.021  percentile 0.00  task agreement 1.00
+  epoch  600 G G1|G2   D_R 0.609  percentile 0.01  task agreement 0.50
+  epoch  600 D D1|D2   D_R 0.610  percentile 0.02  task agreement 0.50
+  epoch  600 U U1|U2   D_R 0.980  percentile 0.51  task agreement 0.03
+
+=== positive control: translation-invariant fraction of state-embedding geometry ===
+  epoch 0: 0.041   epoch 600: 0.071   (permutation null 95th percentile at final epoch: 0.052)
+C:\Users\Projects\differentiation_p0_training_v3\differentiation_p0_training\analysis\core.py:159: RuntimeWarning: invalid value encountered in scalar divide
+  D[s, i, j] = D[s, j, i] = np.linalg.norm(Hf[s, i][m] - Hf[s, j][m], axis=1).mean() / spread
+epoch    0: train 0.032 test 0.029 circulant 0.030 (null95 0.050)
+epoch   10: train 0.143 test 0.038 circulant 0.029 (null95 0.051)
+epoch   20: train 0.676 test 0.119 circulant 0.028 (null95 0.051)
+epoch   30: train 0.967 test 0.168 circulant 0.027 (null95 0.051)
+epoch   40: train 0.988 test 0.194 circulant 0.027 (null95 0.051)
+epoch   50: train 0.983 test 0.188 circulant 0.027 (null95 0.051)
+epoch   60: train 0.990 test 0.207 circulant 0.026 (null95 0.052)
+epoch   70: train 0.986 test 0.225 circulant 0.026 (null95 0.052)
+epoch   80: train 0.985 test 0.229 circulant 0.025 (null95 0.051)
+epoch   90: train 0.985 test 0.244 circulant 0.024 (null95 0.051)
+epoch  100: train 0.990 test 0.262 circulant 0.024 (null95 0.050)
+epoch  110: train 0.989 test 0.274 circulant 0.024 (null95 0.050)
+epoch  120: train 0.989 test 0.303 circulant 0.022 (null95 0.050)
+epoch  130: train 0.985 test 0.324 circulant 0.023 (null95 0.051)
+epoch  140: train 0.990 test 0.329 circulant 0.026 (null95 0.052)
+epoch  150: train 0.991 test 0.384 circulant 0.023 (null95 0.051)
+epoch  160: train 0.986 test 0.398 circulant 0.025 (null95 0.051)
+epoch  170: train 0.991 test 0.446 circulant 0.027 (null95 0.052)
+epoch  180: train 0.991 test 0.479 circulant 0.026 (null95 0.052)
+epoch  190: train 0.991 test 0.537 circulant 0.025 (null95 0.052)
+epoch  200: train 0.992 test 0.606 circulant 0.023 (null95 0.053)
+epoch  210: train 0.993 test 0.677 circulant 0.027 (null95 0.052)
+epoch  220: train 0.997 test 0.781 circulant 0.032 (null95 0.052)
+epoch  230: train 0.995 test 0.769 circulant 0.035 (null95 0.053)
+epoch  240: train 0.997 test 0.889 circulant 0.042 (null95 0.053)
+epoch  250: train 0.996 test 0.879 circulant 0.040 (null95 0.051)
+epoch  260: train 0.995 test 0.911 circulant 0.040 (null95 0.051)
+epoch  270: train 0.998 test 0.936 circulant 0.049 (null95 0.051)
+epoch  280: train 0.996 test 0.960 circulant 0.044 (null95 0.051)
+epoch  290: train 0.997 test 0.960 circulant 0.050 (null95 0.050)
+epoch  300: train 1.000 test 0.990 circulant 0.047 (null95 0.054)
+epoch  310: train 1.000 test 0.993 circulant 0.047 (null95 0.054)
+epoch  320: train 1.000 test 0.995 circulant 0.047 (null95 0.053)
+epoch  330: train 1.000 test 0.995 circulant 0.047 (null95 0.053)
+epoch  340: train 1.000 test 0.995 circulant 0.046 (null95 0.053)
+epoch  350: train 1.000 test 0.994 circulant 0.046 (null95 0.052)
+epoch  360: train 1.000 test 0.996 circulant 0.046 (null95 0.051)
+epoch  370: train 1.000 test 0.996 circulant 0.047 (null95 0.051)
+epoch  380: train 1.000 test 0.996 circulant 0.047 (null95 0.051)
+epoch  390: train 1.000 test 0.995 circulant 0.047 (null95 0.051)
+epoch  400: train 1.000 test 0.995 circulant 0.047 (null95 0.051)
+epoch  410: train 1.000 test 0.995 circulant 0.048 (null95 0.050)
+epoch  420: train 1.000 test 0.994 circulant 0.048 (null95 0.050)
+epoch  430: train 1.000 test 0.995 circulant 0.048 (null95 0.050)
+epoch  440: train 1.000 test 0.994 circulant 0.048 (null95 0.050)
+epoch  450: train 1.000 test 0.995 circulant 0.049 (null95 0.050)
+epoch  460: train 1.000 test 0.996 circulant 0.049 (null95 0.050)
+epoch  470: train 1.000 test 0.996 circulant 0.050 (null95 0.050)
+epoch  480: train 1.000 test 0.996 circulant 0.050 (null95 0.050)
+epoch  490: train 1.000 test 0.996 circulant 0.050 (null95 0.050)
+epoch  500: train 1.000 test 0.997 circulant 0.051 (null95 0.050)
+epoch  510: train 1.000 test 0.997 circulant 0.051 (null95 0.050)
+epoch  520: train 1.000 test 0.997 circulant 0.051 (null95 0.050)
+epoch  530: train 1.000 test 0.997 circulant 0.052 (null95 0.050)
+epoch  540: train 1.000 test 0.996 circulant 0.052 (null95 0.049)
+epoch  550: train 1.000 test 0.997 circulant 0.052 (null95 0.050)
+epoch  560: train 1.000 test 0.998 circulant 0.053 (null95 0.050)
+epoch  570: train 1.000 test 0.997 circulant 0.053 (null95 0.050)
+epoch  580: train 1.000 test 0.998 circulant 0.053 (null95 0.050)
+epoch  590: train 1.000 test 0.998 circulant 0.053 (null95 0.050)
+epoch  600: train 1.000 test 0.998 circulant 0.054 (null95 0.050)
+
+REPRODUCTION GATE: PASS (max |recomputed - logged| = 0.0; epoch-0 train acc 0.032)
+wrote runs\task0_split0_train8_m1_fixed_wd0.3\analysis\trajectory.npz
+C:\Users\Projects\differentiation_p0_training_v3\differentiation_p0_training\analysis\report.py:44: RuntimeWarning: Mean of empty slice
+  D = np.nanmean(t["D"][e_i, l], axis=0)
+C:\Users\Projects\differentiation_p0_training_v3\differentiation_p0_training\analysis\core.py:170: RuntimeWarning: Mean of empty slice
+  out = {"n_pairs": int(len(all_d)), "all_pairs_mean": float(all_d.mean()), "all_pairs_median": float(np.median(all_d))}
+C:\Users\Projects\differentiation_p0_training_v3\differentiation_p0_training\.differentiation_venv_v3\Lib\site-packages\numpy\_core\_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+C:\Users\Projects\differentiation_p0_training_v3\differentiation_p0_training\.differentiation_venv_v3\Lib\site-packages\numpy\_core\fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+
+=== transitions (first epoch with held-out/overall accuracy >= thr for `hold` consecutive checkpoints) ===
+  set/train                          transition epoch 30   crosses 50% at 16.689059500959694   final 1.000
+  set/id                             transition epoch 270   crosses 50% at 190.34883720930233   final 1.000
+  set/val                            transition epoch 260   crosses 50% at 184.8   final 1.000
+  set/test                           transition epoch 260   crosses 50% at 183.61702127659575   final 0.998
+  heldout_family/A->A                transition epoch None   crosses 50% at 246.66666666666666   final 0.906
+  heldout_family/A->B                transition epoch 280   crosses 50% at 212.22222222222223   final 1.000
+  heldout_family/A->C                transition epoch 240   crosses 50% at 188.0   final 1.000
+  heldout_family/A->D                transition epoch 260   crosses 50% at 170.0   final 1.000
+  heldout_family/A->G                transition epoch 240   crosses 50% at 146.875   final 1.000
+  heldout_family/A->U                transition epoch 210   crosses 50% at 118.33333333333333   final 1.000
+  heldout_family/B->A                transition epoch 260   crosses 50% at 177.0   final 1.000
+  heldout_family/B->B                transition epoch 280   crosses 50% at 216.0   final 1.000
+  heldout_family/B->C                transition epoch 260   crosses 50% at 180.0   final 1.000
+  heldout_family/B->D                transition epoch 240   crosses 50% at 164.0   final 1.000
+  heldout_family/B->R                transition epoch 230   crosses 50% at 177.14285714285714   final 1.000
+  heldout_family/B->U                transition epoch 240   crosses 50% at 180.0   final 1.000
+  heldout_family/C->A                transition epoch 260   crosses 50% at 193.0   final 1.000
+  heldout_family/C->B                transition epoch 280   crosses 50% at 208.75   final 1.000
+  heldout_family/C->C                transition epoch 260   crosses 50% at 184.0   final 1.000
+  heldout_family/C->D                transition epoch 260   crosses 50% at 158.0   final 1.000
+  heldout_family/C->G                transition epoch 260   crosses 50% at 200.0   final 1.000
+  heldout_family/C->R                transition epoch 260   crosses 50% at 199.2   final 1.000
+  heldout_family/C->U                transition epoch 240   crosses 50% at 190.0   final 1.000
+  heldout_family/D->A                transition epoch 240   crosses 50% at 148.57142857142858   final 1.000
+  heldout_family/D->B                transition epoch 300   crosses 50% at 223.0   final 1.000
+  heldout_family/D->C                transition epoch 240   crosses 50% at 110.0   final 1.000
+  heldout_family/D->D                transition epoch 240   crosses 50% at 37.0   final 1.000
+  heldout_family/D->R                transition epoch 220   crosses 50% at 87.0   final 1.000
+  heldout_family/D->U                transition epoch 240   crosses 50% at 68.33333333333333   final 1.000
+  heldout_family/G->A                transition epoch 260   crosses 50% at 146.66666666666666   final 1.000
+  heldout_family/G->B                transition epoch 270   crosses 50% at 190.0   final 1.000
+  heldout_family/G->C                transition epoch 250   crosses 50% at 96.66666666666667   final 1.000
+  heldout_family/G->G                transition epoch 220   crosses 50% at 98.33333333333333   final 1.000
+  heldout_family/G->R                transition epoch 240   crosses 50% at 100.0   final 1.000
+  heldout_family/G->U                transition epoch 210   crosses 50% at 47.5   final 1.000
+  heldout_family/R->B                transition epoch 250   crosses 50% at 168.1818181818182   final 1.000
+  heldout_family/R->C                transition epoch 280   crosses 50% at 215.0   final 1.000
+  heldout_family/R->U                transition epoch 250   crosses 50% at 185.23809523809524   final 1.000
+  heldout_family/U->A                transition epoch 260   crosses 50% at 200.0   final 1.000
+  heldout_family/U->B                transition epoch 270   crosses 50% at 212.22222222222223   final 1.000
+  heldout_family/U->C                transition epoch 260   crosses 50% at 179.23076923076923   final 1.000
+  heldout_family/U->D                transition epoch 260   crosses 50% at 189.375   final 1.000
+  heldout_family/U->G                transition epoch 240   crosses 50% at 181.42857142857142   final 1.000
+  heldout_family/U->R                transition epoch 270   crosses 50% at 161.11111111111111   final 1.000
+  functions_solved_test_90           transition epoch 300   crosses 50% at 235.9375   final 1.000
+
+=== D_R at final layer (2), first vs last checkpoint (percentile 0 = closest of 120 pairs) ===
+  epoch    0 R R1|R2   D_R 0.746  percentile 0.47  task agreement 1.00
+  epoch    0 G G1|G2   D_R 0.598  percentile 0.06  task agreement 0.50
+  epoch    0 D D1|D2   D_R 0.935  percentile 0.93  task agreement 0.50
+  epoch    0 U U1|U2   D_R 0.672  percentile 0.26  task agreement 0.03
+  epoch  600 R R1|R2   D_R 0.033  percentile 0.00  task agreement 1.00
+  epoch  600 G G1|G2   D_R 0.603  percentile 0.02  task agreement 0.50
+  epoch  600 D D1|D2   D_R 0.597  percentile 0.01  task agreement 0.50
+  epoch  600 U U1|U2   D_R 0.988  percentile 0.56  task agreement 0.03
+
+=== positive control: translation-invariant fraction of state-embedding geometry ===
+  epoch 0: 0.030   epoch 600: 0.054   (permutation null 95th percentile at final epoch: 0.050)
+C:\Users\Projects\differentiation_p0_training_v3\differentiation_p0_training\analysis\core.py:159: RuntimeWarning: invalid value encountered in scalar divide
+  D[s, i, j] = D[s, j, i] = np.linalg.norm(Hf[s, i][m] - Hf[s, j][m], axis=1).mean() / spread
+epoch    0: train 0.032 test 0.034 circulant 0.030 (null95 0.054)
+epoch   10: train 0.142 test 0.050 circulant 0.031 (null95 0.053)
+epoch   20: train 0.700 test 0.105 circulant 0.033 (null95 0.053)
+epoch   30: train 0.981 test 0.150 circulant 0.033 (null95 0.053)
+epoch   40: train 0.978 test 0.181 circulant 0.034 (null95 0.053)
+epoch   50: train 0.984 test 0.187 circulant 0.035 (null95 0.054)
+epoch   60: train 0.986 test 0.212 circulant 0.035 (null95 0.054)
+epoch   70: train 0.985 test 0.209 circulant 0.036 (null95 0.054)
+epoch   80: train 0.989 test 0.234 circulant 0.037 (null95 0.054)
+epoch   90: train 0.990 test 0.266 circulant 0.038 (null95 0.054)
+epoch  100: train 0.988 test 0.295 circulant 0.037 (null95 0.054)
+epoch  110: train 0.990 test 0.348 circulant 0.037 (null95 0.055)
+epoch  120: train 0.988 test 0.374 circulant 0.038 (null95 0.055)
+epoch  130: train 0.987 test 0.410 circulant 0.037 (null95 0.055)
+epoch  140: train 0.985 test 0.510 circulant 0.041 (null95 0.054)
+epoch  150: train 0.989 test 0.576 circulant 0.041 (null95 0.056)
+epoch  160: train 0.992 test 0.636 circulant 0.042 (null95 0.055)
+epoch  170: train 0.993 test 0.746 circulant 0.041 (null95 0.056)
+epoch  180: train 0.997 test 0.829 circulant 0.046 (null95 0.055)
+epoch  190: train 0.996 test 0.882 circulant 0.047 (null95 0.054)
+epoch  200: train 0.997 test 0.909 circulant 0.041 (null95 0.054)
+epoch  210: train 0.998 test 0.959 circulant 0.048 (null95 0.054)
+epoch  220: train 0.996 test 0.963 circulant 0.049 (null95 0.055)
+epoch  230: train 0.998 test 0.986 circulant 0.042 (null95 0.053)
+epoch  240: train 0.995 test 0.983 circulant 0.039 (null95 0.053)
+epoch  250: train 1.000 test 0.997 circulant 0.035 (null95 0.053)
+epoch  260: train 1.000 test 1.000 circulant 0.035 (null95 0.053)
+epoch  270: train 1.000 test 1.000 circulant 0.035 (null95 0.052)
+epoch  280: train 1.000 test 1.000 circulant 0.035 (null95 0.052)
+epoch  290: train 1.000 test 1.000 circulant 0.035 (null95 0.052)
+epoch  300: train 1.000 test 1.000 circulant 0.035 (null95 0.052)
+epoch  310: train 1.000 test 1.000 circulant 0.035 (null95 0.052)
+epoch  320: train 1.000 test 1.000 circulant 0.035 (null95 0.052)
+epoch  330: train 1.000 test 1.000 circulant 0.035 (null95 0.052)
+epoch  340: train 1.000 test 1.000 circulant 0.035 (null95 0.052)
+epoch  350: train 1.000 test 1.000 circulant 0.034 (null95 0.052)
+epoch  360: train 1.000 test 1.000 circulant 0.034 (null95 0.053)
+epoch  370: train 1.000 test 1.000 circulant 0.034 (null95 0.053)
+epoch  380: train 1.000 test 1.000 circulant 0.034 (null95 0.052)
+epoch  390: train 1.000 test 1.000 circulant 0.033 (null95 0.052)
+epoch  400: train 1.000 test 1.000 circulant 0.033 (null95 0.053)
+epoch  410: train 1.000 test 1.000 circulant 0.033 (null95 0.053)
+epoch  420: train 1.000 test 1.000 circulant 0.033 (null95 0.053)
+epoch  430: train 1.000 test 1.000 circulant 0.033 (null95 0.053)
+epoch  440: train 1.000 test 1.000 circulant 0.032 (null95 0.053)
+epoch  450: train 1.000 test 1.000 circulant 0.032 (null95 0.053)
+epoch  460: train 1.000 test 1.000 circulant 0.032 (null95 0.053)
+epoch  470: train 1.000 test 1.000 circulant 0.032 (null95 0.053)
+epoch  480: train 0.034 test 0.031 circulant 0.038 (null95 0.056)
+epoch  490: train 0.247 test 0.081 circulant 0.068 (null95 0.056)
+epoch  500: train 0.855 test 0.347 circulant 0.067 (null95 0.056)
+epoch  510: train 0.999 test 0.774 circulant 0.070 (null95 0.056)
+epoch  520: train 1.000 test 0.887 circulant 0.069 (null95 0.057)
+epoch  530: train 1.000 test 0.909 circulant 0.069 (null95 0.057)
+epoch  540: train 1.000 test 0.923 circulant 0.068 (null95 0.056)
+epoch  550: train 1.000 test 0.932 circulant 0.068 (null95 0.057)
+epoch  560: train 1.000 test 0.940 circulant 0.068 (null95 0.057)
+epoch  570: train 1.000 test 0.949 circulant 0.068 (null95 0.057)
+epoch  580: train 1.000 test 0.958 circulant 0.068 (null95 0.057)
+epoch  590: train 1.000 test 0.962 circulant 0.067 (null95 0.057)
+epoch  600: train 1.000 test 0.969 circulant 0.067 (null95 0.057)
+
+REPRODUCTION GATE: PASS (max |recomputed - logged| = 0.0; epoch-0 train acc 0.032)
+wrote runs\task0_split0_train9_m1_fixed_wd0.3\analysis\trajectory.npz
+C:\Users\Projects\differentiation_p0_training_v3\differentiation_p0_training\analysis\report.py:44: RuntimeWarning: Mean of empty slice
+  D = np.nanmean(t["D"][e_i, l], axis=0)
+C:\Users\Projects\differentiation_p0_training_v3\differentiation_p0_training\analysis\core.py:170: RuntimeWarning: Mean of empty slice
+  out = {"n_pairs": int(len(all_d)), "all_pairs_mean": float(all_d.mean()), "all_pairs_median": float(np.median(all_d))}
+C:\Users\Projects\differentiation_p0_training_v3\differentiation_p0_training\.differentiation_venv_v3\Lib\site-packages\numpy\_core\_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+C:\Users\Projects\differentiation_p0_training_v3\differentiation_p0_training\.differentiation_venv_v3\Lib\site-packages\numpy\_core\fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+
+=== transitions (first epoch with held-out/overall accuracy >= thr for `hold` consecutive checkpoints) ===
+  set/train                          transition epoch 30   crosses 50% at 16.416788856304986   final 1.000
+  set/id                             transition epoch 210   crosses 50% at 146.53508771929825   final 0.917
+  set/val                            transition epoch 200   crosses 50% at 143.71794871794873   final 0.959
+  set/test                           transition epoch 200   crosses 50% at 139.0   final 0.969
+  heldout_family/A->A                transition epoch 200   crosses 50% at 151.25   final 1.000
+  heldout_family/A->B                transition epoch 200   crosses 50% at 141.11111111111111   final 0.984
+  heldout_family/A->C                transition epoch 200   crosses 50% at 158.0   final 0.969
+  heldout_family/A->D                transition epoch 210   crosses 50% at 116.66666666666667   final 0.969
+  heldout_family/A->G                transition epoch 180   crosses 50% at 124.0   final 1.000
+  heldout_family/A->U                transition epoch 170   crosses 50% at 123.33333333333333   final 1.000
+  heldout_family/B->A                transition epoch 190   crosses 50% at 146.0   final 0.969
+  heldout_family/B->B                transition epoch 230   crosses 50% at 164.0   final 0.953
+  heldout_family/B->C                transition epoch 190   crosses 50% at 146.36363636363637   final 1.000
+  heldout_family/B->D                transition epoch 210   crosses 50% at 133.75   final 1.000
+  heldout_family/B->R                transition epoch 220   crosses 50% at 170.0   final 0.875
+  heldout_family/B->U                transition epoch 200   crosses 50% at 143.33333333333334   final 1.000
+  heldout_family/C->A                transition epoch 200   crosses 50% at 135.3846153846154   final 0.979
+  heldout_family/C->B                transition epoch 210   crosses 50% at 147.0   final 0.990
+  heldout_family/C->C                transition epoch 200   crosses 50% at 145.0   final 1.000
+  heldout_family/C->D                transition epoch 220   crosses 50% at 138.88888888888889   final 1.000
+  heldout_family/C->G                transition epoch 190   crosses 50% at 151.25   final 0.984
+  heldout_family/C->R                transition epoch 210   crosses 50% at 156.25   final 0.844
+  heldout_family/C->U                transition epoch 210   crosses 50% at 158.57142857142858   final 1.000
+  heldout_family/D->A                transition epoch 190   crosses 50% at 136.66666666666666   final 0.953
+  heldout_family/D->B                transition epoch 200   crosses 50% at 142.72727272727272   final 0.984
+  heldout_family/D->C                transition epoch 210   crosses 50% at 98.0   final 0.984
+  heldout_family/D->D                transition epoch 210   crosses 50% at 140.0   final 0.938
+  heldout_family/D->R                transition epoch 210   crosses 50% at 161.76470588235293   final 0.812
+  heldout_family/D->U                transition epoch 190   crosses 50% at 105.71428571428571   final 1.000
+  heldout_family/G->A                transition epoch 190   crosses 50% at 118.18181818181819   final 0.984
+  heldout_family/G->B                transition epoch 210   crosses 50% at 136.15384615384616   final 0.979
+  heldout_family/G->C                transition epoch 180   crosses 50% at 116.0   final 1.000
+  heldout_family/G->G                transition epoch 200   crosses 50% at 36.666666666666664   final 1.000
+  heldout_family/G->R                transition epoch 190   crosses 50% at 110.0   final 0.938
+  heldout_family/G->U                transition epoch 190   crosses 50% at 110.0   final 0.969
+  heldout_family/R->B                transition epoch 180   crosses 50% at 136.15384615384616   final 0.844
+  heldout_family/R->C                transition epoch 210   crosses 50% at 143.0   final 1.000
+  heldout_family/R->U                transition epoch 190   crosses 50% at 136.15384615384616   final 1.000
+  heldout_family/U->A                transition epoch 200   crosses 50% at 128.0   final 0.938
+  heldout_family/U->B                transition epoch 200   crosses 50% at 140.0   final 1.000
+  heldout_family/U->C                transition epoch 200   crosses 50% at 141.42857142857142   final 0.969
+  heldout_family/U->D                transition epoch 210   crosses 50% at 160.0   final 0.992
+  heldout_family/U->G                transition epoch 190   crosses 50% at 125.0   final 0.969
+  heldout_family/U->R                transition epoch 220   crosses 50% at 174.0909090909091   final 0.859
+  functions_solved_test_90           transition epoch 210   crosses 50% at 192.27272727272728   final 0.930
+
+=== D_R at final layer (2), first vs last checkpoint (percentile 0 = closest of 120 pairs) ===
+  epoch    0 R R1|R2   D_R 1.044  percentile 0.93  task agreement 1.00
+  epoch    0 G G1|G2   D_R 1.050  percentile 0.94  task agreement 0.50
+  epoch    0 D D1|D2   D_R 0.830  percentile 0.53  task agreement 0.50
+  epoch    0 U U1|U2   D_R 0.772  percentile 0.36  task agreement 0.03
+  epoch  600 R R1|R2   D_R 0.023  percentile 0.00  task agreement 1.00
+  epoch  600 G G1|G2   D_R 0.607  percentile 0.02  task agreement 0.50
+  epoch  600 D D1|D2   D_R 0.600  percentile 0.01  task agreement 0.50
+  epoch  600 U U1|U2   D_R 0.926  percentile 0.30  task agreement 0.03
+
+=== positive control: translation-invariant fraction of state-embedding geometry ===
+  epoch 0: 0.030   epoch 600: 0.067   (permutation null 95th percentile at final epoch: 0.057)

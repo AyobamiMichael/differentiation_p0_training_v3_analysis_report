@@ -1,0 +1,37 @@
+
+# Training runs, model checkpoints, and bulk experiment outputs
+runs/
+runs_*/
+**/runs/
+**/runs_*/
+
+# Model weights and checkpoint files
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Large generated experiment artifacts
+*.npy
+*.npz
+*.parquet
+
+# Python cache and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/

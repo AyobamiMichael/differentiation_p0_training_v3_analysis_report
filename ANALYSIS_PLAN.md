@@ -31,6 +31,9 @@ split seeds 1-2 before claiming anything beyond this world.
 | H4 positive control | state-embedding circulant fraction exceeds the permutation-null 95th percentile after the transition in at least some seeds | never exceeds the null (then the embeddings carry no Z_32 structure: report it, and do not use embeddings as the structure probe) |
 | H5 timing | ID, val and test curves cross 0.5 within one checkpoint spacing of each other | they separate by more than 3 spacings |
 
+H6: families whose second operator is D, G or U cross 50% earlier than others (C→D at epoch 97, A→G at 140, D→D at 131, versus about 215–265 for most).
+H7: the timing of the R1/R2 merge relative to the test transition. dr_relations.csv has this per epoch, but I haven’t seen it.
+
 A null or opposite result on any row is a result. Record it in the paper as such.
 
 ## Not yet (only after G0, G1 and H1-H5 are examined)
